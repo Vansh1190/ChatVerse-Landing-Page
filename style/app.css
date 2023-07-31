@@ -1,0 +1,122 @@
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 15vh;
+}
+.HomePageDisplay{
+    height: 40vw;
+    min-height: 350px;
+    background: rgb(48,64,78);
+    background: radial-gradient(circle, rgba(48,64,78,1) 0%, rgba(32,59,83,1) 55%, rgba(6,25,42,1) 100%);
+}
+
+
+#HomePageDisplayImg{
+    width: 14vw;
+    max-width: 300px;
+}
+
+.HomePageDisplay .title{
+    font-size: 3.5vw;
+}
+.HomePageDisplay .description{
+    font-size: 1.6vw;
+    padding-top: 1.8vw !important;
+   
+    padding-left: 2.5rem;
+}
+.HomePageDisplay .ButtonCont{
+    padding: 10px 25px;
+    flex-flow: row;
+    width: 100%;
+    /* max-width: 0px; */
+}
+.HomePageDisplay button{
+    padding: 2.4vw 3.8vw;
+    font-size: larger;
+  }
+
+.MenuButtons{
+    /* color: black; */
+    /* background-color: rgba(5, 5, 5, 0.276) !important; */
+    background-color: #0a1f31;
+    color: black;
+}
+.MenuButtons button{
+    /* color: black; */
+    /* background-color: rgba(5, 5, 5, 0.276) !important; */
+    background-color: transparent;
+    color: whitesmoke;
+}
+.MenuTitle{
+  color: whitesmoke;
+}
+@media (width < 500px){
+    .HomePageDisplay .ButtonCont{
+        padding: 15px 25px;
+        flex-flow: column;
+        width: 100%;
+        max-width: 190px;
+    }
+    
+    .HomePageDisplay{
+        height: 95vw;
+    }
+
+    .HomePageDisplay .text-4xl{
+        font-size: 6vw;
+        /* letter-spacing: 1p; */
+    }
+    
+    #HomePageDisplayImg{
+        width: 31vw;
+        max-width: 300px;
+        margin-right: 15px;
+        
+    }
+}
+
+@media (width > 500px) {
+    
+}
+
+  
+@media (width < 500px) {
+    .HomePageDisplay button{
+      /* padding: 2vw 3vw; */
+      font-size: smaller;
+    }
+    .HomePageDisplay .title{
+      font-size: 6vw;
+    }
+    .HomePageDisplay .description{
+      font-size: 3.2vw;
+    }
+  
+    ol {
+      padding: 5px !important;
+    }
+    ol .FeaturesCard p{
+      
+      padding: 5px 8px !important;
+      font-size: small !important;
+    }
+    ol .FeaturesCard h3{
+      padding: 0 !important;
+      font-size: medium !important;
+    }
+    ol .FeaturesCard div{
+      padding: 19px 14px !important;
+    }
+    .Getting-Started ol{
+      list-style-type: decimal;
+      padding:0px 50px !important;
+      font-size: 4.3vw;
+    }
+    .Getting-Started-Card{
+      width: 80vw !important;
+    }
+}
+  
+/* main{
+    height: 1500px;
+} */
