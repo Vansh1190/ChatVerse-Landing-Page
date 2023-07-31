@@ -19,6 +19,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <title>ChatVerse</title>
+        <link rel="shortcut icon" href="/4712035.png" type="any" />
+        <link rel="icon" href="/4712035.png" type="any" />
+      </head>
       <body className={'inter.className'}>
         <main className='h-1522' id='Home'>
           <NavigationMenu style={{alignItems: 'center'}} className='p-5 fixed w-full bg-slate-900 flex align-center justify-between'>
