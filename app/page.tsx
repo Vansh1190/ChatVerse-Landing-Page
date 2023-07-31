@@ -11,16 +11,22 @@ import Link from 'next/link'
 import { Features, Footer, GettingStarted } from './Components/GettingStarted'
 import { toast } from '@/components/ui/use-toast'
 import { ToastAction } from '@radix-ui/react-toast'
+import { Blob } from 'buffer'
 
 export default function Home() {
 
   const DownloadAPP = () => {
-    console.log('ehlo')
+    // console.log('ehlo')
+   
+
     toast({
       title: "Thank you for Downloading ChatVerse ",
       description: "We hope you like ChatVerse, we were happy to hear your valuable feedback.",
       duration:5000,
     })
+    setTimeout(() => {
+      window.location.href='/ChatVerse.apk'
+    }, 3000);
   }
   
   const GotoChatVerse = () => {

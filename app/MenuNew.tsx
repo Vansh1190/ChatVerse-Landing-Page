@@ -57,7 +57,7 @@ const MenuNew = () => {
         </Button>
        
        
-        <Button className='w-full' onClick={() => scrollTo('About')}> 
+        <Button className='w-full' onClick={() => scrollTo('Aboutus')}> 
           <SheetClose className='w-full'>
             <button className='w-full'>About US</button>
           </SheetClose>

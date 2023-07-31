@@ -362,7 +362,7 @@ const Footer = () => {
 
   return (
     <>
-    <div className="Getting-Started p-12 text-center" id='Getting-Started'>
+    <div className="Getting-Started p-12 text-center" id='Aboutus'>
       <Button onClick={RecordRating} className="">Leave a Rating</Button>
     </div >
     <div className="Getting-Started text-center" id='Getting-Started'>
