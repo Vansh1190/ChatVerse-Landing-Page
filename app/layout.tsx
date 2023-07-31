@@ -12,11 +12,6 @@ import { Toaster } from '@/components/ui/toaster'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata: Metadata = {
-  title: 'ChatVerse',
-  description: 'Created by Vansh1190',
-}
-
 export default function RootLayout({
   children,
 }: {
